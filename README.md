@@ -20,14 +20,17 @@ This project implements a Siamese Neural Network for face verification:
 ## 📁 Project Structure
 ```
 FaceRecognition/
-├── main.py            # Main application with GUI
-├── layers.py          # Custom L1 distance layer
-├── model.ipynb        # Model training notebook
-├── siamesemodel.h5    # Trained Siamese model
-├── requirements.txt   # Project dependencies
-├── application_data/  # Data directory
-│   └── input_image/   # Verification images
-└── README.md         # Documentation
+├── main.py                # Main application with GUI
+├── layers.py             # Custom L1 distance layer
+├── model.ipynb           # Model training notebook
+├── siamesemodel.h5       # Trained Siamese model
+├── requirements.txt      # Project dependencies
+├── README.md            # Documentation
+├── res.png              # Result demonstration image
+├── siamese.png          # Architecture diagram
+├── application_data/    # Data directory
+    ├── input_image/     # Verification images
+    └── verification_images/ # Training images
 ```
 
 
